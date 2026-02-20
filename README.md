@@ -58,8 +58,6 @@ news-aggregator/
 │   │   ├── constants.js            # API config, categories, colors
 │   │   ├── formatDate.js           # Date/time formatting helpers
 │   │   └── truncateText.js         # Text cleaning helpers
-│   ├── routes/
-│   │   └── AppRoutes.jsx           # All app routes
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── index.css                   # Tailwind directives + global styles
