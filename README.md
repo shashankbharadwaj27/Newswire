@@ -12,7 +12,6 @@ A responsive, production-ready news aggregator built with **React**, **React Rou
 - **Pagination** — navigate through large result sets
 - **Grid & List views** — toggle between card grid and compact list layout
 - **Featured banner** — top article displayed as a full-width hero card
-- **Bookmarks** — save articles locally with `localStorage`, persists across sessions
 - **Dynamic sidebar** — trending keywords, live category counts, and top sources all derived from the current feed
 - **Skeleton loaders** — smooth loading states throughout
 - **Error handling** — API failures show a friendly error with retry option
@@ -66,7 +65,6 @@ news-aggregator/
 │   └── index.css                   # Tailwind directives + global styles
 ├── .env                            # VITE_API_KEY=...
 ├── tailwind.config.js
-├── postcss.config.js
 ├── vite.config.js
 └── package.json
 ```
